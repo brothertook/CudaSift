@@ -1,5 +1,7 @@
 # CudaSift - SIFT features with CUDA
 
+## Jetson TX2 version
+
 This is the fourth version of a SIFT (Scale Invariant Feature Transform) implementation using CUDA for GPUs from NVidia. The first version is from 2007 and GPUs have evolved since then. This version is slightly more precise and considerably faster than the previous versions and has been optimized for Kepler and later generations of GPUs.
 
 On a GTX 1060 GPU the code takes about 2.7 ms on a 1280x960 pixel image and 3.8 ms on a 1920x1080 pixel image. There is also code for brute-force matching of features and homography computation that takes about 3.7 ms for two sets of around 2250 SIFT features each.
